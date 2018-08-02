@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#FFF"
+    android:layout_height="match_parent"
+    tools:context=".InverseRelationship">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relationshipInverse"
+        android:text="@string/hello_blank_fragment"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relationshipInverse2"
+        android:text="@string/hello_blank_fragment"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:layout_below="@+id/relationshipInverse"
+        android:layout_marginTop="20dp"
+        />
+
+</RelativeLayout>

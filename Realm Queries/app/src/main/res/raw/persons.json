@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Ebenezer Edet",
+    "address": "Garki Abuja",
+    "phone_number": 242424,
+    "email": "seginebenezer72@yahoo.com",
+    "age": 30
+  },
+  {
+    "name":"Smith Williams",
+    "address":"Wuse Abuja",
+    "phone_number":123456,
+    "email":"smithwilliams4real@gmail.com",
+    "age": 25
+  },
+  {
+    "name":"Mark John",
+    "address":"Gwagwalada Abuja",
+    "phone_number":890234,
+    "email":"markjonah123@gmail.com",
+    "age": 20
+  },
+  {
+    "name":"Edet Lucas",
+    "address":"Sokoto Nigeria",
+    "phone_number":345678,
+    "email":"lucasmoondy@yahoo.com",
+    "age": 15
+  },
+  {
+    "name":"Simon Sandals",
+    "address":"Kebbi Nigeria",
+    "phone_number":345678,
+    "email":"sandalssimon@rocketmail.com",
+    "age": 70
+  },
+  {
+    "name":"Robben Smart",
+    "address":"Zamfara Nigeria",
+    "phone_number":345678,
+    "email":"smartrobben@gmail.com",
+    "age": 50
+  },
+  {
+    "name":"Benjamin Solomon",
+    "address":"Ibadan Nigeria",
+    "phone_number":345678,
+    "email":"solobenji@hotmail.com",
+    "age":10
+  },
+  {
+    "name":"Ebenezer Edet",
+    "address":"Lugbe Abuja",
+    "phone_number":345678,
+    "email":"noway4tyson@gmail.com",
+    "age":45
+  },
+  {
+    "name":"Mike Brown",
+    "address":"Wuye Abuja",
+    "phone_number":345678,
+    "email":"brownmike@yahoo.com",
+    "age":75
+  },
+  {
+    "name":"Venom Light",
+    "address":"Gwarinpa Abuja",
+    "phone_number":345678,
+    "email":"verylightvenom@bluemail.com",
+    "age":20
+  }
+]

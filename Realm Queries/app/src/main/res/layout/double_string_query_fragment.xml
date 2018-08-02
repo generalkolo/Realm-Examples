@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    tools:context=".DoubleStringQuery">
+
+    <EditText
+        android:layout_marginTop="30dp"
+        android:id="@+id/query_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter A Name" />
+
+    <EditText
+        android:layout_below="@+id/query_name"
+        android:id="@+id/query_name_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Another Name" />
+
+    <Button
+        android:id="@+id/go_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/query_name_2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="GO" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/go_btn"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal"
+        android:text="Result Will appear Here"
+        android:textColor="#000"
+        android:textSize="18sp" />
+
+</RelativeLayout>

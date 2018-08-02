@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".LinkFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/cat_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Cat Name"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/cat_age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cat_name"
+            android:hint="Enter Cat Age"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/cat_color_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cat_age"
+            android:hint="Enter Cat color 1"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/cat_color_two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cat_color_one"
+            android:hint="Enter Cat color 2"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/go_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cat_color_two"
+            android:layout_centerInParent="true"
+            android:text="GO" />
+
+        <TextView
+            android:id="@+id/result_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/go_btn"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:text="Result" />
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/result_text"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:text="Result will be displayed here"
+            android:textColor="@android:color/black"
+            android:textSize="17sp" />
+
+    </RelativeLayout>
+
+</ScrollView>
