@@ -34,4 +34,6 @@ dependencies {
     implementation 'org.projectlombok:lombok:1.16.20'
     annotationProcessor 'org.projectlombok:lombok:1.16.20'
     implementation 'io.realm:android-adapters:2.1.0'
+    implementation 'com.facebook.stetho:stetho:1.5.0'
+    implementation 'com.uphyca:stetho_realm:2.2.2'
 }

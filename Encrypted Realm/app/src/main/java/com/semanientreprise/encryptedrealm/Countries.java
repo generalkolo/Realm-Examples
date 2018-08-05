@@ -7,6 +7,6 @@ import lombok.Setter;
 @Getter
 @Setter
 public class Countries extends RealmObject {
-    String Name;
-    String Age;
+    private String Name;
+    private String Age;
 }

@@ -7,7 +7,6 @@ import android.support.v7.widget.RecyclerView;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.security.SecureRandom;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -16,8 +15,10 @@ import io.realm.RealmConfiguration;
 import io.realm.RealmResults;
 
 public class MainActivity extends AppCompatActivity {
+
     @BindView(R.id.countriesRecView)
     RecyclerView countriesRecView;
+
     private Realm realm;
 
     @Override
@@ -26,13 +27,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
 
-        Realm.init(this);
-
-        byte[] key = new byte[64];
-        new SecureRandom().nextBytes(key);
-
         RealmConfiguration encryptedConfiguration = new RealmConfiguration.Builder()
-                .encryptionKey(key)
+                .encryptionKey(ApplicationClass.key)
                 .name("realEncrypted.realm")
                 .build();
 
@@ -53,7 +49,6 @@ public class MainActivity extends AppCompatActivity {
         countriesRecView.setHasFixedSize(true);
 
         countriesRecView.setAdapter(new MyAdapter(countriesResults));
-
     }
 
     private void fillUpCountriesRealm() {
